@@ -1,5 +1,8 @@
 # Pytorch Mask R-CNN
 Pytorch Mask-RCNN on custom UMCD dataset.
+## First of all
+please unzip the file git_repos.zip  and place it in data folder i.e Pytorch-Mask-R-CNN-on-UMCD/data
+download zip file from : https://drive.google.com/file/d/1jNGdSdy9kKX2uSYqZpSCcBXcxWq99yb_/view?usp=sharing
 
 ## Installation
 The project required `torch>=1.6.0` and `torchvision>=0.7.0`.
