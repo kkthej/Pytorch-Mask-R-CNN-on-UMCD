@@ -29,8 +29,8 @@ For example,
  ```
 Please  run `python train.py --help` for more details.
 
-##for Evaluation and deployment download the .pth file from below link and place it in 
-Pytorch-Mask-R-CNN-on-UMCD/saved_models/
+##for Evaluation and deployment
+Download the .pth file from below link and place it in Pytorch-Mask-R-CNN-on-UMCD/saved_models/
 https://drive.google.com/file/d/1pfNfskOYlC4AdjZVjpShh4aYeEU2kdnS/view?usp=sharing
 
 # Evaluation
