@@ -44,34 +44,34 @@ print two tables as the following.
 *IoU metric: bbox*
 |Metric|Area|Max Dets/Value|
 |:---|:---|:---|
-| Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.345|
-| Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.398|
- |Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.393|
- |Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.271|
- |Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.289|
- |Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.474|
- |Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.354|
- |Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.376|
- |Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.376|
- |Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.309|
- |Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.298|
- |Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.482|
+| Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.645|
+| Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.698|
+ |Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.693|
+ |Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.671|
+ |Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.689|
+ |Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.674|
+ |Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.654|
+ |Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.676|
+ |Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.676|
+ |Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.609|
+ |Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.698|
+ |Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.682|
  
 *IoU metric: segm*
 |Metric|Area|Max Dets/Value|
 |:---|:---|:---|
- |Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.331|
- |Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.393|
- |Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.377|
- |Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.233|
- |Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.288|
- |Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.498|
- |Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.343|
- |Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.365|
- |Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.365|
- |Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.285|
- |Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.293|
- |Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.498|
+ |Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.631|
+ |Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.693|
+ |Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.677|
+ |Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.733|
+ |Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.688|
+ |Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.798|
+ |Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.643|
+ |Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.665|
+ |Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.665|
+ |Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.685|
+ |Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.693|
+ |Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.768|
 
 ## Deployment
 To test on a single image.
